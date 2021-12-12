@@ -52,7 +52,7 @@ fn _puzzle_2(mut input: Vec<String>, mode: bool) -> i32 {
     for col in 0..12 {
         if input.len() <= 2 {
             println!("{:?}", input);
-            return i32::from_str_radix(&input[1], 2).unwrap()
+            return i32::from_str_radix(&input[1], 2).unwrap();
         }
 
         let mut tmp_0 = 0;
